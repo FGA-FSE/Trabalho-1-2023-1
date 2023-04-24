@@ -136,14 +136,14 @@ O servidor central tem as seguintes responsabilidades:
 2. Cada serviço (programa) deve poder ser iniciado independente dos demais e ficar aguardando o acionamento dos demais, re-estabelecento sua conexão TCP/IP assim que os serviços voltem ao ar em qualquer ordem;
 3. Deverá haver um arquivo README no repositório descrevento o modo de instalação/execução e o modo de uso do programa.
 
-## 4. Observações sobre a implementação
+### 3.4. Observações sobre a implementação
 
 1. **Sensor de Passagem**: conforme descrito no item 3, há dois sensores de passagem que funcionam em conjunto para sinalizar a passagem de veículos de um andar para o outro. Os sensores emitem um "pulso" ou "sinal quadrado" no formato \_|‾‾‾|_. Este sinal deve ser detectado a partir da borda de subida e descida e a largura do pulso tem duração entre 100 a 300 ms dependendo da velocidade com que o carro passa pelo sensor. A ordem de acionamento dos sensores indica a direção em que o carro passa da seguinte maneira:  
    1. Sensor de Passagem 1 seguido do 2: indica um carro que **sobe** do 1º para o 2º andar;
    2. Sensor de Passagem 2 seguido do 1: indica um carro que **desce** do 2º para o 1º andar;
 
 
-## 5. Critérios de Avaliação
+## 4. Critérios de Avaliação
 
 A avaliação será realizada seguindo os seguintes critérios: 
 
@@ -168,7 +168,7 @@ Tabela 3 - Tabela de Avaliação
 |**Qualidade do Código / Execução** |   Utilização de boas práticas como o uso de bons nomes, modularização e organização em geral, bom desempenho da aplicação sem muito uso da CPU. |  1,5 |
 |**Pontuação Extra** |   Qualidade e usabilidade acima da média. |   0,5   |  
 
-## 6. Referências
+## 5. Referências
 
 ### Bibliotecas em Python
 
