@@ -53,7 +53,7 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 | SINAL_DE_LOTADO_FECHADO                           |  27  | Saída   |
 | SENSOR_ABERTURA_CANCELA_ENTRADA                   |  23  | Entrada |
 | SENSOR_FECHAMENTO_CANCELA_ENTRADA                 |  24  | Entrada |
-| MOTOR_CANCELA_ENTRADA                             |  04  | Saída   |
+| MOTOR_CANCELA_ENTRADA                             |  10  | Saída   |
 | SENSOR_ABERTURA_CANCELA_SAIDA                     |  25  | Entrada |
 | SENSOR_FECHAMENTO_CANCELA_SAIDA                   |  12  | Entrada |
 | MOTOR_CANCELA_SAIDA                               |  17  | Saída   |
@@ -71,7 +71,7 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 | ENDERECO_02                                       |  06  | Saída   |
 | ENDERECO_03                                       |  05  | Saída   |
 | SENSOR_DE_VAGA                                    |  20  | Entrada |
-| SINAL_DE_LOTADO_FECHADO                           |  10  | Saída   |
+| SINAL_DE_LOTADO_FECHADO                           |  08  | Saída   |
 | SENSOR_DE_PASSAGEM_1                              |  16  | Entrada |
 | SENSOR_DE_PASSAGEM_2                              |  21  | Entrada |
 </center> 
