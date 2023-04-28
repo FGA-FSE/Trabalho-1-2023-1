@@ -78,6 +78,8 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 
 [Link do Dashboard - Estacionamento 1](http://164.41.98.25:443/dashboard/55d19de0-d5ae-11ed-abfa-f3ea15799da1?publicId=ba042a80-0322-11ed-9f25-414fbaf2b065)  
 
+[Link do Dashboard - Estacionamento 2](http://164.41.98.25:443/dashboard/7ec34170-e49c-11ed-97a9-572f7863d28a?publicId=ba042a80-0322-11ed-9f25-414fbaf2b065)
+
 ## 3. Funcionamento e Requisitos
 
 O controle do estacionamento deverá funcionar da seguine maneira:
