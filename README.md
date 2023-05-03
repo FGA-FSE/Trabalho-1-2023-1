@@ -40,7 +40,7 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 3. Cada entrada / saída está representada na Tabela abaixo. Cada servidor distribuído é responsável pelo controle de um andar.
 
 <center>
-<b>Tabela 1</b> - Pinout da GPIO da Raspberry Pi do <b>1º Andar</b>
+<b>Tabela 1</b> - Pinout da GPIO da Raspberry Pi do <b>1º Andar</b> - Placas dos Estacionamentos 1 a 3
 </center>
 <center> 
 
@@ -61,7 +61,7 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 </center> 
 
 <center>
-<b>Tabela 2</b> - Pinout da GPIO da Raspberry Pi do <b>2º Andar</b>
+<b>Tabela 2</b> - Pinout da GPIO da Raspberry Pi do <b>2º Andar</b> - Placas dos Estacionamentos 1 a 3
 </center>
 <center> 
 
@@ -74,6 +74,44 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 | SINAL_DE_LOTADO_FECHADO                           |  08  | Saída   |
 | SENSOR_DE_PASSAGEM_1                              |  16  | Entrada |
 | SENSOR_DE_PASSAGEM_2                              |  21  | Entrada |
+</center> 
+
+
+<center>
+<b>Tabela 3</b> - Pinout da GPIO da Raspberry Pi do <b>1º Andar</b> - Placas dos <b>Estacionamentos 4</b>
+</center>
+<center> 
+
+| Item                                              | GPIO | Direção |
+|---------------------------------------------------|:----:|:-------:|
+| ENDERECO_01                                       |  26  | Saída   |
+| ENDERECO_02                                       |  19  | Saída   |
+| ENDERECO_03                                       |  13  | Saída   |
+| SENSOR_DE_VAGA                                    |   9  | Entrada |
+| SINAL_DE_LOTADO_FECHADO                           |   6  | Saída   |
+| SENSOR_ABERTURA_CANCELA_ENTRADA                   |  10  | Entrada |
+| SENSOR_FECHAMENTO_CANCELA_ENTRADA                 |  22  | Entrada |
+| MOTOR_CANCELA_ENTRADA                             |   5  | Saída   |
+| SENSOR_ABERTURA_CANCELA_SAIDA                     |  27  | Entrada |
+| SENSOR_FECHAMENTO_CANCELA_SAIDA                   |  17  | Entrada |
+| MOTOR_CANCELA_SAIDA                               |   0  | Saída   |
+
+</center> 
+
+<center>
+<b>Tabela 4</b> - Pinout da GPIO da Raspberry Pi do <b>2º Andar</b> - Placas dos <b>Estacionamentos 4</b>
+</center>
+<center> 
+
+| Item                                              | GPIO | Direção |
+|---------------------------------------------------|:----:|:-------:|
+| ENDERECO_01                                       |  21  | Saída   |
+| ENDERECO_02                                       |  20  | Saída   |
+| ENDERECO_03                                       |  16  | Saída   |
+| SENSOR_DE_VAGA                                    |  12  | Entrada |
+| SINAL_DE_LOTADO_FECHADO                           |  23  | Saída   |
+| SENSOR_DE_PASSAGEM_1                              |  25  | Entrada |
+| SENSOR_DE_PASSAGEM_2                              |  24  | Entrada |
 </center> 
 
 [Link do Dashboard - Estacionamento 1](http://164.41.98.25:443/dashboard/55d19de0-d5ae-11ed-abfa-f3ea15799da1?publicId=ba042a80-0322-11ed-9f25-414fbaf2b065)  
@@ -154,7 +192,7 @@ O servidor central tem as seguintes responsabilidades:
 A avaliação será realizada seguindo os seguintes critérios: 
 
 <center>
-Tabela 3 - Tabela de Avaliação
+Tabela 5 - Tabela de Avaliação
 </center>
 
 |   ITEM    |   DETALHE  |   VALOR   |
