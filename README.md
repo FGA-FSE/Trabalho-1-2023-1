@@ -94,7 +94,7 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 | MOTOR_CANCELA_ENTRADA                             |   5  | Saída   |
 | SENSOR_ABERTURA_CANCELA_SAIDA                     |  27  | Entrada |
 | SENSOR_FECHAMENTO_CANCELA_SAIDA                   |  17  | Entrada |
-| MOTOR_CANCELA_SAIDA                               |   0  | Saída   |
+| MOTOR_CANCELA_SAIDA                               |   4  | Saída   |
 
 </center> 
 
@@ -121,6 +121,13 @@ Para simplificar a implementação e logística de testes do trabalho, a quantid
 [Link do Dashboard - Estacionamento 3](http://164.41.98.25:443/dashboard/847b0ee0-e848-11ed-b4be-6f8edbfbbea8?publicId=ba042a80-0322-11ed-9f25-414fbaf2b065)  
 
 [Link do Dashboard - Estacionamento 4](http://164.41.98.25:443/dashboard/8eaec5e0-e772-11ed-b4be-6f8edbfbbea8?publicId=ba042a80-0322-11ed-9f25-414fbaf2b065)  
+
+[Link do Dashboard - Estacionamento 5](http://164.41.98.25:443/dashboard/34481400-ea22-11ed-8856-e75bee7a6ce5?publicId=ba042a80-0322-11ed-9f25-414fbaf2b065)    
+
+[Link do Dashboard - Estacionamento 6](http://164.41.98.25:443/dashboard/10e89950-f0fb-11ed-ab24-250be7c7f3e7?publicId=ba042a80-0322-11ed-9f25-414fbaf2b065)    
+
+
+
 
 ## 3. Funcionamento e Requisitos
 
